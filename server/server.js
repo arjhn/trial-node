@@ -10,7 +10,7 @@ app.get('/api/hello', (req, res) => {
 });
 app.post('/',(req,res)=>{
     console.log(req);
-    res.send(`done with server : ${req}`)
+    res.send(`done with server`)
 })
 app.post('/api/world', (req, res) => {
   console.log(req.body);

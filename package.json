@@ -9,6 +9,9 @@
     "server": "nodemon server/server.js",
     "dev": "concurrently --kill-others-on-fail \" nodemon server.js\" \"npm start --prefix client\""
   },
+  "engines": {
+    "node":"8.12.0"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
